@@ -1,0 +1,130 @@
+menu:
+  首页: / || fa fa-home
+  归档: /archives/ || fa fa-archive
+  标签: /tags/ || fa fa-tags
+  分类: /categories/ || fa fa-folder-open
+  友链: /link/ || fa fa-link
+  关于: /about/ || fa fa-heart
+  留言: /contact/ || fa fa-comments
+  游戏: /steamgames/ || fab fa-steam
+  图集: /gallery/ || far fa-image
+  资源: https://pan.imyan.ren || fa fa-folder
+  Travelling: https://travellings.now.sh/ ||
+
+# social settings (社交圖標設置)
+# formal:
+#   icon: link || the description
+social:
+  fab fa-github: https://github.com/hydlink || Github
+  fab fa-twitter: https://twitter.com/Link_to_Bright || Twitter
+  fa fa-rss: /atom.xml || RSS
+
+
+# Image (圖片設置)
+# --------------------------------------
+
+# Favicon（網站圖標）
+favicon: https://avatars.githubusercontent.com/u/32926102?s=60&v=4
+
+# Avatar (頭像)
+avatar:
+  img: https://avatars.githubusercontent.com/u/32926102?v=4
+  effect: false
+
+# The banner image of home page
+index_img: https://api.dujin.org/bing/1920.php
+
+# If the banner of page not setting, it will show the top_img
+default_top_img: https://api.dujin.org/bing/1920.php
+
+# The banner image of archive page
+archive_img:
+
+# If the banner of tag page not setting, it will show the top_img
+# note: tag page, not tags page (子標籤頁面的 top_img)
+tag_img:
+
+# The banner image of tag page
+# format:
+#  - tag name: xxxxx
+tag_per_img:
+
+# If the banner of category page not setting, it will show the top_img
+# note: category page, not categories page (子分類頁面的 top_img)
+category_img:
+
+# The banner image of category page
+# format:
+#  - category name: xxxxx
+category_per_img:
+
+# If you are using hexo-douban, you can configure it (如果你有使用 hexo-douban,可配置這個)
+# douban:
+#   meta: false
+#   movies_img:
+#   books_img:
+#   games_img:
+
+cover:
+  # display the cover or not (是否顯示文章封面)
+  index_enable: true
+  aside_enable: true
+  archives_enable: true
+  # the position of cover in home page (封面顯示的位置)
+  # left/right/both
+  position: left
+  # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
+  default_cover:
+    - https://api.dujin.org/bing/1920.php
+      # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
+
+# Replace Broken Images (替換無法顯示的圖片)
+error_img:
+  flink: /img/friend_404.gif
+  post_page: /img/404.jpg
+
+# A simple 404 page
+error_404:
+  enable: false
+  subtitle: "Page Not Found"
+  background: https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
+
+
+# busuanzi count for PV / UV in site
+# 訪問人數
+# busuanzi:
+#   site_uv: true
+#   site_pv: true
+#   page_pv: true
+
+# Time difference between publish date and now (網頁運行時間)
+# Formal: Month/Day/Year Time or Year/Month/Day Time
+runtimeshow:
+  enable: true
+  publish_date: 08/16/2021 20:14:56
+
+# wordcount (字數統計)
+# wordcount:
+#   enable: true
+#   post_wordcount: true
+#   min2read: true
+#   total_wordcount: true
+
+
+# Code Blocks (代碼相關)
+# --------------------------------------
+
+highlight_theme: light #  darker / pale night / light / ocean / mac / mac light / false
+highlight_copy: true # copy button
+highlight_lang: true # show the code language
+highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
+code_word_wrap: false
+
+# copy settings
+# copyright: Add the copyright information after copied content (複製的內容後面加上版權信息)
+copy:
+  enable: true
+  copyright:
+    enable: false
+    limit_count: 50
+
