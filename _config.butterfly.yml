@@ -32,10 +32,10 @@ avatar:
   effect: false
 
 # The banner image of home page
-index_img: https://api.dujin.org/bing/1920.php
+index_img: https://i.loli.net/2021/08/18/AFXO6LnqQ5JSzhK.jpg
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: https://api.dujin.org/bing/1920.php
+default_top_img: https://i.loli.net/2021/08/18/1UXI4aquiPZDmL9.jpg
 
 # The banner image of archive page
 archive_img:
@@ -72,11 +72,10 @@ cover:
   archives_enable: true
   # the position of cover in home page (封面顯示的位置)
   # left/right/both
-  position: left
+  position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
-    - https://api.dujin.org/bing/1920.php
-      # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
+    - https://i.loli.net/2021/08/18/1UXI4aquiPZDmL9.jpg
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
@@ -128,3 +127,26 @@ copy:
     enable: false
     limit_count: 50
 
+
+# Inject the css and script (aplayer/meting)
+aplayerInject:
+  enable: true
+  per_page: true
+
+# Inject
+# Insert the code to head (before '</head>' tag) and the bottom (before '</body>' tag)
+# 插入代码到头部 </head> 之前 和 底部 </body> 之前
+inject:
+  head:
+    # - <link rel="stylesheet" href="/xxx.css">
+    # - <link rel="stylesheet" href="https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.css">
+    # - <link rel="stylesheet" href="https://cdn.bootcss.com/dplayer/1.22.2/DPlayer.min.css">
+    - <link rel="stylesheet" href="/css/font.css">
+    - <link rel="stylesheet" href="/css/heimu.css">
+    - <link rel="manifest" href="/manifest.json">
+    - <link rel="stylesheet" href="/css/app-refresh.css">
+    - <link rel="stylesheet" href="/css/hint.min.css">
+  bottom:
+    # https://github.com/stevenjoezhang/live2d-widget
+    # - <script src="https://cdn.jsdelivr.net/gh/username/live2d-widget@latest/autoload.js"></script>
+    - <div class="aplayer no-destroy aplayer-lrc-hide" data-id="6924568714" data-server="netease" data-type="playlist" data-fixed="true" data-mini="true" data-listFolded="false" data-order="random" data-preload="none" data-autoplay="false" muted></div>

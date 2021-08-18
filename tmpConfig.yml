@@ -177,10 +177,10 @@ steam:
   enable: true
   steamId: "76561198398640158" #steam 64位Id
   title: Steam 游戏库
-  quote: "家庭共享玩家，1/4 个精神阿根廷人x，所以有些玩了挺久的 game 并不能在这里看到（"
+  quote: "买了也不玩"
   tab: all
   length: 1000
-  imgUrl: "http://www.steamsignature.com/card/0/76561198398640158.png"
+  imgUrl: "https://steamsignature.com/profile/schinese/76561198398640158.png"
   proxy:
     host: 127.0.0.1
     port: 7890

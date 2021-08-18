@@ -1,0 +1,21 @@
+- classname:
+  link_list:
+    - name: 炎忍的博客
+      link: https://blog.imyan.ren
+      avatar: https://blog.imyan.ren/media/avatar.png
+    - name: 小林卡比的技术分享
+      link: https://blog.zerokirby.cn
+      avatar: https://blog.zerokirby.cn/img/avatar.jpg
+      descr: 分享我软件工程的学习历程
+    - name: 冒泡ioa
+      link: http://bubbleioa.top/
+      avatar: https://p.sda1.dev/2/fa6c9523cf94c8c5d7547ed8117272cc/QQ图片20210616091947.jpg
+      descr: 
+    - name: ttsuxx
+      link: https://ttsuxx.cc
+      avatar: https://p.sda1.dev/2/85d0111c49a5c7f814c56ab8138d4b0c/ewsdg.jpg
+      descr: 
+    - name: ttsuxx
+      link: https://ttsuxx.cc
+      avatar: https://p.sda1.dev/2/85d0111c49a5c7f814c56ab8138d4b0c/ewsdg.jpg
+      descr: 
