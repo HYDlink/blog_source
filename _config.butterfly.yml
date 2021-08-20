@@ -130,6 +130,7 @@ copy:
 
 # Inject the css and script (aplayer/meting)
 aplayerInject:
+  meting: true
   enable: true
   per_page: true
 
