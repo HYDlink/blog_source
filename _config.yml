@@ -207,3 +207,23 @@ neat_js:
   exclude:
     - "**/*.min.js"
     - "**/index.js"
+
+# Live2D
+## https://github.com/xiazeyu/live2d-widget.js
+## https://l2dwidget.js.org/docs/class/src/index.js~L2Dwidget.html#instance-method-init
+live2d:
+  enable: true
+  scriptFrom: local
+  pluginRootPath: live2dw/
+  pluginJsPath: lib/
+  pluginModelPath: assets/
+  tagMode: false
+  debug: false
+  model:
+    use: neptune
+  display:
+    position: right
+    width: 150
+    height: 300
+  mobile:
+    show: false

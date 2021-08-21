@@ -8,8 +8,6 @@ menu:
   留言: /contact/ || fa fa-comments
   游戏: /steamgames/ || fab fa-steam
   图集: /gallery/ || far fa-image
-  资源: https://pan.imyan.ren || fa fa-folder
-  Travelling: https://travellings.now.sh/ ||
 
 # social settings (社交圖標設置)
 # formal:
@@ -151,3 +149,33 @@ inject:
     # https://github.com/stevenjoezhang/live2d-widget
     # - <script src="https://cdn.jsdelivr.net/gh/username/live2d-widget@latest/autoload.js"></script>
     - <div class="aplayer no-destroy aplayer-lrc-hide" data-id="6924568714" data-server="netease" data-type="playlist" data-fixed="true" data-mini="true" data-listFolded="false" data-order="random" data-preload="none" data-autoplay="false" muted></div>
+
+
+# Comments System
+# --------------------------------------
+
+comments:
+  # Up to two comments system, the first will be shown as default
+  # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Utterances/Facebook Comments
+  use:
+    - Valine
+  # - Disqus
+  text: true # Display the comment name next to the button
+  # lazyload: The comment system will be load when comment element enters the browser's viewport.
+  # If you set it to true, the comment count will be invalid
+  lazyload: false
+  count: false # Display comment count in top_img
+  card_post_count: true # Display comment count in Home Page
+
+valine:
+  enable: true # if you want use valine,please set this value is true
+  appId: WCAzMhamyShdYFOOYhWzmL7M-9Nh9j0Va  # leancloud application app id
+  appKey: eqJGlhhgduQbVRwvuMoUh17B  # leancloud application app key
+  enableQQ: true
+  notify: false # valine mail notify (true/false) https://github.com/xCss/Valine/wiki
+  verify: false # valine verify code (true/false)
+  pageSize: 10 # comment list page size
+  avatar: monsterid # gravatar style https://valine.js.org/#/avatar
+  lang: zh-cn # i18n: zh-cn/en/tw
+  placeholder: 昵称输入QQ号联结QQ头像和昵称~ # valine comment input placeholder(like: Please leave your footprints )
+  guest_info: nick,mail,link #valine comment header inf
