@@ -48,6 +48,6 @@
     "hexo-wordcount": "^6.0.1",
     "image-size": "^0.9.3",
     "markdown-it-katex": "^2.0.3",
-    "terser": "4.8.0"
+    "terser": "5.7.2"
   }
 }
